@@ -1,0 +1,86 @@
+.container{
+    width: 800px;
+    margin: 10px auto;
+}
+a{
+    text-decoration: none;
+    color: #999;
+}
+#rss{
+    display: flex !important;
+    -webkit-flex-direction: column !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    position: relative !important;
+    text-rendering: auto !important;
+    overflow: hidden !important;
+    -moz-osx-font-smoothing: auto !important;
+    -webkit-font-smoothing: auto !important;
+}
+.post{
+    max-width: 800px !important;
+    line-height: 18.2px !important;
+    border-radius: 4px !important;
+    border: 1px solid #DAE1E9 !important;
+    padding: 20px 40px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
+    background-color: #FFFFFF !important;
+    margin: 10px auto;
+}
+.title{
+    display: block !important;
+    color: rgb(26, 13, 171) !important;
+    font-family: arial, sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 21.6px !important;
+    text-align: left !important;
+    text-decoration-color: rgb(26, 13, 171) !important;
+    text-decoration-line: none !important;
+    text-decoration-style: solid !important;
+    white-space: nowrap !important;
+    width: auto !important;
+    margin-bottom: 1px !important;
+}
+.url{
+    display: block !important;
+    color: rgb(0, 102, 33) !important;
+    font-family: arial, sans-serif !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    height: auto !important;
+    line-height: 16px !important;
+    text-align: left !important;
+    white-space: nowrap !important;
+    width: auto !important;
+}
+.desc{
+    display: block !important;
+    color: #545454 !important;
+    font-family: arial, sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    height: auto !important;
+    line-height: 18.2px !important;
+    text-align: left !important;
+    width: auto !important;
+    word-wrap: break-word !important;
+    text-overflow: ellipsis !important;
+    -o-text-overflow: ellipsis !important;    /* Opera < 11*/
+    text-overflow: ellipsis !important;
+}
+.date{
+    color: #808080 !important;
+}
+.clear:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.clear img{
+    width: 100px;
+    height: 70px;
+    float: left;
+    margin-right: 10px;
+}

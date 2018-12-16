@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Simple RSS Feeds</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <div class="container">
+         <div id="rss"></div>
+    </div>
+    
+    <script src="jquery.min.js"></script>
+    <script src="moment.min.js"></script>
+    <script src="jquery.rss.js"></script>
+    <script>
+        $('#rss').rss("http://www.playground.ru/rss/news.xml");
+    </script>
+</body>
+</html>

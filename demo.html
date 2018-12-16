@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <title>Simple RSS Feed</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    
+    <div class="container">
+        <div id="rss"></div>
+    </div>
+    
+    <script src="jquery.min.js"></script>
+    <script src="moment.min.js"></script>
+    <script src="jquery.rss.js"></script>
+    <script>
+      $("#rss").rss("http://feeds.feedburner.com/dawanda")
+  </script>
+</body>
+</html>
